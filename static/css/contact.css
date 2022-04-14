@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* container start */
+#container{
+    width: 80%;
+    height: 700px;
+    /* background-color: aquamarine; */
+    margin: 10px auto;
+}
+/* container end */
+#navbar{
+    width: auto;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    height: 80px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: black; */
+    
+}
+#navbar ul li{
+    margin: 0px 20px;
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    color:  #45523e;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 1.2em;  
+}
+/* end */
+
+
+/* contact us start */
+
+/* page */
+#page{
+    width: auto;
+    height: 600px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page{
+    width: 45%;
+    height: 600px;
+    /* background-color: blue; */
+}
+#word{
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #28511c;
+    margin: 10px auto;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+#page a{
+    font-size: 1.0em;
+    font-weight: lighter;
+    color: #28511c;
+    margin: 10px auto;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+form{
+    margin-top: 50px;
+}
+form input{
+    display: block;
+    margin: 20px auto;
+    border: none;
+    width: 99%;
+    height: 40px;
+    border: 2px solid #45523e;
+    padding-left: 10px;
+}
+
+form textarea{
+    margin: 10px auto;
+    border: none;
+    width: 100%;
+    border: 2px solid #45523e;
+    padding-left: 10px ;
+}
+form button{
+    border: none;
+    width: 60%;
+    margin: 10px 16%;
+    text-transform: uppercase;
+    background-color: wheat;
+    color: #28511c;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* contact us end */
+
+
+.page1{
+    width: 45%;
+    height: 600px;
+    /* background-color: blue; */
+    margin-left: 25px;
+}
+/* info */
+#text{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #28511c;
+    margin: 20px auto;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.message {
+    font-size: 1.0em;
+    font-weight: lighter;
+    color: #28511c;
+    margin: 20px auto;
+    font-family:  'IBM Plex Sans Thai Looped', sans-serif;
+}
+.locate {
+    font-size: 1.0em;
+    font-weight: lighter;
+    color: #28511c;
+    margin: 20px auto;
+    font-family:  'IBM Plex Sans Thai Looped', sans-serif;
+}
+/* footer start */
+footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 40px auto;
+    background-color: #45523e;
+    margin: 10px auto;
+}
+footer a{
+    color: black;
+    font-size: 1.0em;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    margin: 10px;
+    
+}

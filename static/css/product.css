@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+#container{
+    width: 80%;
+    height: 700px;
+    margin: 10px auto;
+    /* background-color: antiquewhite; */
+}
+#navbar{
+    width: auto;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    height: 80px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: black; */
+    
+}
+#navbar ul li{
+    margin: 0px 20px;
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    color:  #45523e;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 1.0em;
+}
